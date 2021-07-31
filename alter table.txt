@@ -1,0 +1,3 @@
+ALTER TABLE `pribadi`
+	ADD COLUMN `url_foto` VARCHAR(256) NULL DEFAULT NULL AFTER `kepengurusan_id`,
+	ADD COLUMN `url_ktp` VARCHAR(256) NULL DEFAULT NULL AFTER `url_foto`;

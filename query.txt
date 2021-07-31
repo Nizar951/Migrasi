@@ -1,0 +1,38 @@
+create table pribadi (
+  Idpribadi int auto_increment primary key,
+    
+			nama varchar2(512),
+
+			tempat_lahir varchar2(512),
+
+			tgl_lahir date,
+
+			kelamin varchar2(2),
+
+			gol_darah varchar2(4),
+
+			kelurahan_ktp varchar(50), //
+			kelurahan_domisili varchar(50), //
+			agama varchar2(512), 
+//
+			stat_kawin varchar2(50),
+
+			no_kk varchar(50),
+ //
+			no_ktp varchar(50),
+
+			is_wni boolean, //
+			json_alamat text,
+ //
+			json_pendidikan text,
+			json_pekerjaan text,
+			created datetime,
+
+			updated datetime
+			
+);
+/
+primary key('idpribadi')
+
+INSERT INTO `pribadi`(`Idpribadi`, `nama`, `tempat_lahir`, `tgl_lahir`, `kelamin`, `gol_darah`, `kelurahan_ktp`, `kelurahan_domisili`, `agama`, `stat_kawin`, `no_kk`, `no_ktp`, `is_wni`, `json_alamat`, `json_pendidikan`, `json_pekerjaan`, `created`, `updated`) VALUES (1, 'Malik, S.Pd', 'Surabaya', '1979-9-21', 'p', 'b', '3578281003', '3578281003', 'Islam', Null, '3578302109790001', '3578302109790001', true,'Rejosari Pesantren IV no. 14', 'sarjana', 'Pegawai Swasta', '2019-1-24 17:20:43', '2020-10-1 23:52:38')
+

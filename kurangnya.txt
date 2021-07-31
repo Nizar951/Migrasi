@@ -1,0 +1,8 @@
+agama //Islam
+is wni	//true
+json alamat
+json pendidikan
+json pekerjaan
+json keluarga
+is pelatih 	//diisi 0
+kepengurusan id
